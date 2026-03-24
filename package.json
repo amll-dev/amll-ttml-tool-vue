@@ -63,5 +63,16 @@
     "vite-plugin-top-level-await": "^1.4.4",
     "vite-plugin-wasm": "^3.3.0",
     "vite-svg-loader": "^5.1.0"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@applemusic-like-lyrics/core",
+      "@applemusic-like-lyrics/lyric",
+      "@applemusic-like-lyrics/vue",
+      "@biomejs/biome",
+      "@swc/core",
+      "esbuild",
+      "vue-demi"
+    ]
   }
 }
