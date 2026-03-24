@@ -12,11 +12,26 @@
 <template>
 	<NModal :show="settings.showingTutorial" transform-origin="center">
 		<NCard :title="t('tutorial.title')" style="max-width: 800px;">
+			<NAlert type="warning">
+				<p>
+					本项目是 AMLL TTML Tool 重构前的存档。
+					<strong>不保证功能可用，也不接受任何使用反馈或新功能提交。</strong><br />
+					我们强烈建议您换用
+					<NButton text tag="a" href="https://tool.amll.dev/" target="_blank" type="primary">AMLL TTML Tool 的当前版本</NButton>
+					或 <NButton text tag="a" href="https://editor.amll.dev/" target="_blank" type="primary">AMLL Editor</NButton>
+					进行编辑。
+				</p>
+				<p>
+					This is an archive of AMLL TTML Tool before its refactoring.
+					<strong>We DO NOT guarantee functionality and does not accept any usage feedback or new feature submissions.</strong><br />
+					We strongly recommend you to use  
+					<NButton text tag="a" href="https://tool.amll.dev/" target="_blank" type="primary">the current version of AMLL TTML Tool</NButton>
+					or <NButton text tag="a" href="https://editor.amll.dev/" target="_blank" type="primary">AMLL Editor</NButton>
+					for editing.
+				</p>
+			</NAlert>
 			<NSpace style="white-space: pre-line; line-height: 2rem;" vertical>
 				<i18n-t keypath="tutorial.content" />
-				<NAlert type="warning">
-					<i18n-t keypath="tutorial.wipWarning" />
-				</NAlert>
 				<NSteps vertical>
 					<NStep :title="t('tutorial.step1.title')">
 						<i18n-t keypath="tutorial.step1.content" />

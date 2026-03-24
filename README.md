@@ -1,5 +1,6 @@
-> **WARNING**
-> 本工具仍在开发当中，仍有很多缺失的功能和 BUG，请仅用作尝鲜用途，并随时保存你的歌词文件以防万一！
+> [!caution]
+>
+> 本仓库是 [AMLL TTML Tool](https://github.com/amll-dev/amll-ttml-tool) 重构前的存档仓库。本仓库不保证功能可用，也不接受任何使用反馈或新功能提交。
 
 <div align=center>
 
